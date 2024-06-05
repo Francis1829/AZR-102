@@ -1,0 +1,86 @@
+/* header {
+    background-image: linear-gradient(180deg,rgba(255,255,255,0) -10%, #7171721c 100%);
+} */
+
+@font-face {
+    font-family: Anton ;
+    src: url(../src/fonts/Anton-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: Catamaran ;
+    src: url(../src/fonts/Catamaran-VariableFont_wght.ttf);
+  }
+
+  @font-face {
+    font-family: Roboto ;
+    src: url(../src/fonts/Roboto-Regular.ttf);
+  }
+
+  /* .shaxxcz{
+    text-shadow: 5px 3px 20px #000;
+  } */
+  .scroll{
+    background-color: #0b0b0b;
+    transition: .4s all ease-in-out;
+  }
+
+  .scroll nav{
+    background-color: transparent;
+    color: #fff;
+    transition: all .5s ease-in-out;
+  }
+
+
+  .blurx{
+    backdrop-filter: blur(10px);
+  }
+
+  .blurx:hover + .customer{
+    opacity: 1;
+    transform: translateX(0px);
+    transition: all .7s ease-in-out;
+  }
+
+  .market:hover + .marketing{
+    opacity: 1;
+    transform: translateX(0px);
+    transition: all .7s ease-in-out;
+  }
+
+  .ithover:hover + .IT{
+    opacity: 1;
+    transform: translateX(0px);
+    transition: all .7s ease-in-out;
+  }
+
+  .socialhover:hover + .social{
+    opacity: 1;
+    transform: translateX(0px);
+    transition: all .7s ease-in-out;
+  }
+
+  .first{
+    transition: transform 200ms;
+  }
+
+  .first:hover{
+    transform: scale(1.1) translateY(-20px);
+    transition: all .5s ease-in-out;
+  }
+
+  .first:hover + .first{
+    transform: scale(1) translateY(-10px);
+    transition: all .5s ease-in-out;
+  }
+
+
+  .first:has(+ .first:hover) {
+    transform: scale(1) translateY(-10px);
+    transition: all .5s ease-in-out;
+  }
+
+
+  .fade{
+    background-image: linear-gradient(rgba(19, 23, 28, 0) 60%, rgba(19, 23, 28, 0.733) 80%, rgba(19, 23, 28, 0.79) 90%);
+  }
