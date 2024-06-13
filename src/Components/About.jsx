@@ -35,9 +35,9 @@ function About() {
       <div className='text-[2rem] font-[Catamaran] font-bold tracking-wider  mr-7 mt-5'>Discovery Call</div>
   <div className='font-[Roboto] 2xl:text-[1.8rem] xl/lg:text-2xl tracking-wide leading-16 mr-7'>We know that every business is different which is why we take the time to understand your goals and resourcing requirements with a one-on-one Discovery Call, providing consultation and advice on getting the most out of your offshore team.</div>
 
-  <div className='w-full flex text-end justify-ennd items-center group'>
-            <div  className='text-[2rem] my-5 font-[Catamaran] ml-10 text-[#b5913a] group-hover:text-white underline'>
-              <Link to="www.face.com">Read more</Link></div>
+  <div className='w-[300px] ml-10 rounded-xl border bg-white hover:bg-[#b5913a] border-[#b5913a] flex text-center justify-start items-center group'>
+            <button  className='text-[2rem] py-3 px-2 font-[Catamaran]  text-[#b5913a] group-hover:text-white'>
+              <Link to="www.face.com">Read more</Link></button>
               <RxArrowRight size={50} className="text-[#b5913a] ml-3 group-hover:text-white group-hover:ml-10 duration-100" />
               </div>
 
@@ -48,7 +48,7 @@ function About() {
 
         
       </div>
-      <div className='w-[800px] h-[700px] flex justify-center items-center relative group [perspective:1000px]'>
+      {/* <div className='w-[800px] h-[700px] flex justify-center items-center relative group [perspective:1000px]'>
       <div className='w-full h-full bg-[#bea260]  mt-5 rounded-3xl absolute flex flex-col justify-center items-center shadow-xl  shadow-black/40 cursor-pointer transition-all duration-1000 [transform-style-preserve-3d] group-hover:[transform:rotateY(180deg)] '>
       <div className='relative z-10 text-end text-white group-hover:hidden  transition-all duration-1000  '>
       <div className='text-[4rem] font-[Catamaran] font-semibold tracking-wider text-start '>Why Work with AZR?</div>
@@ -60,7 +60,7 @@ function About() {
       </div>
 
 
-      </div>
+      </div> */}
       </div>
       </div>
     </div>
